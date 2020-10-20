@@ -1,7 +1,7 @@
 ## Vendor
-ESLint config.
+ESLint Config.
 
-js|jsx|ts|tsx|vue and prettier
+configure js|jsx|ts|tsx|vue and prettier
 
 ## Installation
 yarn add -D @mbvue/eslint-config
@@ -11,16 +11,18 @@ yarn add -D @mbvue/eslint-config
 
 module.exports = {
   extends: ["@mbvue/eslint-config"],
+  rules: {}
 };
 
 or
 
-.eslintrc：
+.eslintrc.json：
 
 or
 
 {
-  extends: ["@mbvue/eslint-config"],
+  "extends": ["@mbvue/eslint-config"],
+  "rules": {}
 }
 
 or
@@ -28,7 +30,8 @@ or
 package.json：
 
 {
-    "eslintConfig": {
-        "extends": "@mbvue/eslint-config"
-    }
+  "eslintConfig": {
+    "extends": "@mbvue/eslint-config",
+    "rules": {}
+  }
 }
