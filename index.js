@@ -27,7 +27,7 @@ module.exports = {
         // eslint-recommended
         "comma-dangle": "error",
         "object-shorthand": "error",
-        semi: ["error", "always"],
+        "semi": "off",
         "no-var": "error",
         "no-debugger": "off",
 
