@@ -1,6 +1,6 @@
 {
   "name": "@mbvue/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "eslint config",
   "main": "index.js",
   "repository": {
@@ -11,9 +11,15 @@
     "url": "https://github.com/mbvue/eslint-config/issues"
   },
   "homepage": "https://github.com/mbvue/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "mb",
+    "mbvue"
+  ],
   "author": "hwq <17031989083@qq.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "eslint": "^7.11.0",

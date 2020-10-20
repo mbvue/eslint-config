@@ -8,7 +8,7 @@ module.exports = {
 
   extends: [
     "eslint:recommended",
-    "plugin:vue/recommended",
+    "plugin:vue/vue3-recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
@@ -24,6 +24,17 @@ module.exports = {
   plugins: ["@typescript-eslint"],
 
   rules: {
+    // eslint-recommended
+    'comma-dangle': 'error',
+    'object-shorthand': 'error',
+    semi: ['error', 'always'],
     'no-var': 'error',
+    'no-debugger': 'off',
+
+    // eslint-plugin-vue
+    'vue/no-v-html': 'off',
+
+    // typescript-eslint
+    '@typescript-eslint/no-unused-vars': 'error',
   },
 };
