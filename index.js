@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
-    jest: true,
+    jest: true
   },
 
   extends: [
@@ -12,29 +12,29 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "prettier/vue",
+    "prettier/vue"
   ],
 
   parserOptions: {
     ecmaVersion: 11,
     parser: "@typescript-eslint/parser",
-    sourceType: "module",
+    sourceType: "module"
   },
 
   plugins: ["@typescript-eslint"],
 
   rules: {
     // eslint-recommended
-    'comma-dangle': 'error',
-    'object-shorthand': 'error',
-    semi: ['error', 'always'],
-    'no-var': 'error',
-    'no-debugger': 'off',
+    "comma-dangle": "error",
+    "object-shorthand": "error",
+    semi: ["error", "always"],
+    "no-var": "error",
+    "no-debugger": "off",
 
     // eslint-plugin-vue
-    'vue/no-v-html': 'off',
+    "vue/no-v-html": "off",
 
     // typescript-eslint
-    '@typescript-eslint/no-unused-vars': 'error',
+    "@typescript-eslint/no-unused-vars": "error"
   },
 };

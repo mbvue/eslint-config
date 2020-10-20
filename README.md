@@ -23,6 +23,8 @@ or
   extends: ["@mbvue/eslint-config"],
 }
 
+or
+
 package.json：
 
 {
