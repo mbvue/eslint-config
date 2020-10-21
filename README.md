@@ -10,7 +10,11 @@ yarn add -D @mbvue/eslint-config
 .eslintrc.js：
 
 module.exports = {
-  extends: ["@mbvue/eslint-config"],
+  extends: ['@mbvue/eslint-config']
+};
+
+module.exports = {
+  extends: ['@mbvue/eslint-config'],
   rules: {}
 };
 
@@ -21,6 +25,10 @@ or
 or
 
 {
+  "extends": ["@mbvue/eslint-config"]
+}
+
+{
   "extends": ["@mbvue/eslint-config"],
   "rules": {}
 }
@@ -28,6 +36,12 @@ or
 or
 
 package.json：
+
+{
+  "eslintConfig": {
+    "extends": "@mbvue/eslint-config"
+  }
+}
 
 {
   "eslintConfig": {
