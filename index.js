@@ -19,7 +19,7 @@ module.exports = {
         sourceType: 'module' //指定类型
     },
 
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'markdown'],
 
     overrides: [
         {
