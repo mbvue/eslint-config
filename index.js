@@ -8,9 +8,7 @@ module.exports = {
 
     extends: [
         'eslint:recommended', //Eslint 推荐配置
-        'plugin:vue/vue-recommended', //Vue2 推荐配置（vue3不支持 template）
-        'plugin:@typescript-eslint/eslint-recommended', //Typescript Eslint 推荐配置
-        'plugin:@typescript-eslint/recommended', //Typescript 推荐配置
+        'plugin:vue/recommended', //Vue2 推荐配置（vue3不支持 template）
         'prettier', //Prettier 配置
         'prettier/vue' //Prettier Vue 兼容配置
     ],
@@ -25,10 +23,11 @@ module.exports = {
 
     overrides: [
         {
-            files: ['**/*.js', '**/*.jsx'],
-            rules: {
-                '@typescript-eslint/no-var-requires': 'off' //关闭 js|jsx 中 no-var-requires 提示
-            }
+            files: ['**/*.ts', '**/*.tsx'],
+            extends: [
+                'plugin:@typescript-eslint/eslint-recommended', //Typescript Eslint 推荐配置
+                'plugin:@typescript-eslint/recommended', //Typescript 推荐配置
+            ]
         }
     ],
 
