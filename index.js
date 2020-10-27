@@ -8,7 +8,7 @@ module.exports = {
 
     extends: [
         'eslint:recommended', //Eslint 推荐配置
-        'plugin:vue/recommended', //Vue2 推荐配置（vue3不支持 template）
+        'plugin:vue/vue3-recommended', //Vue3 推荐配置
         'prettier', //Prettier 配置
         'prettier/vue' //Prettier Vue 兼容配置
     ],
@@ -26,7 +26,7 @@ module.exports = {
             files: ['**/*.ts', '**/*.tsx'],
             extends: [
                 'plugin:@typescript-eslint/eslint-recommended', //Typescript Eslint 推荐配置
-                'plugin:@typescript-eslint/recommended', //Typescript 推荐配置
+                'plugin:@typescript-eslint/recommended' //Typescript 推荐配置
             ]
         }
     ],
@@ -48,5 +48,5 @@ module.exports = {
 
         // typescript-eslint
         '@typescript-eslint/no-unused-vars': 'error' // 禁止使用未使用的变量
-    },
+    }
 };
