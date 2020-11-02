@@ -1,10 +1,10 @@
-## Vendor
-ESLint Config.
-
-Configure js|jsx|ts|tsx|vue|md and prettier
+## Description
+Support .js、.jsx、.ts、.tsx、.vue、.md、prettier
 
 ## Installation
 ```bash
+npm install --save-dev @mbvue/eslint-config
+#OR
 yarn add -D @mbvue/eslint-config
 ```
 
@@ -12,13 +12,6 @@ yarn add -D @mbvue/eslint-config
 .eslintrc.js：
 
 ```js
-module.exports = {
-  root: true,
-  extends: ['@mbvue/eslint-config']
-};
-
-# OR
-
 module.exports = {
   root: true,
   extends: ['@mbvue/eslint-config'],
@@ -33,13 +26,6 @@ OR
 ```json
 {
   "root": true,
-  "extends": ["@mbvue/eslint-config"]
-}
-
-# OR
-
-{
-  "root": true,
   "extends": ["@mbvue/eslint-config"],
   "rules": {}
 }
@@ -50,15 +36,6 @@ OR
 package.json：
 
 ```json
-{
-  "eslintConfig": {
-    "root": true,
-    "extends": "@mbvue/eslint-config"
-  }
-}
-
-# OR
-
 {
   "eslintConfig": {
     "root": true,
