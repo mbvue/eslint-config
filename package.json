@@ -1,6 +1,6 @@
 {
     "name": "@mbvue/eslint-config",
-    "version": "0.0.14",
+    "version": "0.0.16",
     "description": "eslint config",
     "main": "index.js",
     "repository": {
@@ -23,8 +23,9 @@
         "babel-eslint": "^10.1.0",
         "eslint": "^7.11.0",
         "eslint-config-prettier": "^6.13.0",
+        "eslint-plugin-html": "^6.1.0",
         "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-markdown": "^1.0.2",
+        "eslint-plugin-markdown": "^2.0.0-rc.0",
         "eslint-plugin-vue": "^7.1.0"
     }
 }

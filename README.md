@@ -1,5 +1,7 @@
 ## Description
-Support .js、.jsx、.ts、.tsx、.vue、.md、prettier
+Support .js、.jsx、.ts、.tsx、.vue、.md、html and integrate prettier
+
+If the project contains typescript, use the typescript-eslint parser, otherwise use the babel-eslint parser
 
 ## Installation
 ```bash
