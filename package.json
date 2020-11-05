@@ -1,6 +1,6 @@
 {
     "name": "@mbvue/eslint-config",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "description": "eslint config",
     "main": "index.js",
     "repository": {
