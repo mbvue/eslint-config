@@ -1,6 +1,6 @@
 {
     "name": "@mbvue/eslint-config",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "eslint config",
     "main": "index.js",
     "repository": {
@@ -18,12 +18,12 @@
     "author": "hwq <17031989083@qq.com>",
     "license": "MIT",
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.4.1",
-        "@typescript-eslint/parser": "^4.4.1",
+        "@typescript-eslint/eslint-plugin": "^4.7.0",
+        "@typescript-eslint/parser": "^4.7.0",
         "babel-eslint": "^10.1.0",
-        "eslint": "^7.11.0",
-        "eslint-config-prettier": "^6.13.0",
-        "eslint-plugin-html": "^6.1.0",
+        "eslint": "^7.13.0",
+        "eslint-config-prettier": "^6.15.0",
+        "eslint-plugin-html": "^6.1.1",
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-markdown": "^2.0.0-rc.0",
         "eslint-plugin-vue": "^7.1.0"
